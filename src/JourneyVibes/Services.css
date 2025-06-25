@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Emilys+Candy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.services_background{
+    background-image: url(assets/background.jpg);
+    width: 100%;
+    height: 40vh;
+ 
+    overflow: hidden;
+    display: flex;
+
+    align-items: center;
+    
+}
+.services_background h1{
+  font-size: 50px;
+  text-transform: capitalize;
+
+}
+.services_background h5,.services_background span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.services_background h5::after{
+content: "\003E \003E";
+  color: black;
+position: absolute;
+margin-left: 10px;
+}
+.services-main p {
+  font-size: 17px;
+
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+
+}
+
+.services-container h1{
+  font-size: 40px;
+  font-family: "Charm", serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0e420e;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+.services-container h1::after {
+  content: "";
+  width:70px;
+  height: 3px;
+  position: absolute;
+  background-color: #0e420e;
+bottom:-3px;
+left: 46%;
+}
+
+.services-container img{
+height: 200px;
+}
+.services-container .service-data:hover{
+  background: snow;
+  transform: translateY(-2%);
+  transition: all 0.5s ease-in-out;
+  padding: 0%;
+
+  
+}
+.services-container h2{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+
+  color: #c62509;
+}
+.services-container p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+text-align: justify;
+}
+/*AddServices.js*/
+.addservice h3{
+  font-size: 40px !important;
+  font-family: "Charm", serif;
+  
+  color: #0e420e;
+  font-weight: 900;
+  
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Emilys+Candy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .footer-container{
+    background-image: url(assets/bg2.jpg);
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+ 
+  .footer-container h1{
+    font-size: 30px;
+    font-family: "Charm", serif;
+    text-transform: uppercase !important;
+    color: #0e420e;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .footer-container h3{
+  
+      font-family: "Emilys Candy", serif;
+      font-size: 30px !important;
+     color:  #02374c;
+     font-weight: 600;
+     margin-top: 20px;
+    }
+ 
+    
+ .address i{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+ }
+ .address span{
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+ }
+ 
+ .links ul li{
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  
+ }
+ .links ul a{
+  color: transparent;
+  
+ }
+ .destinations ul li{
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  
+ }
+  .awards-container img{
+    width: 50px;
+    background-color: #908b8b;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 5px 5px;
+  }
+  .awards-container  span i:hover{
+  color: #FF6347;
+  }
+  .footer-container input{
+    background-color: #aca6a6;
+        height: 50px;
+      }
+      .footer-container button{
+        background-color:#FF6347;
+        color: #fff;
+        border:1px solid transparent;
+        border-radius: 5px;
+        padding: 10px 5px;
+      }
+      .footer-container1{
+        border-top: 2px dotted black;
+        
+      }
+      .footer-container1 h5{
+       font-size: 18px;
+       font-weight: 600;
+       color: #000;
+        
+      }
+     

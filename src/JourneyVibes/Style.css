@@ -1,0 +1,865 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Miltonian+Tattoo&display=swap");
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+header{
+  position: sticky;
+top: 0px;
+z-index: 10;
+box-shadow: 0px 2px 5px #d7a99e;
+ 
+}
+body{
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+.navbar-brand h3 {
+  font-family: "Miltonian Tattoo", serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 900;
+}
+.navbar-brand h3 span {
+  font-family: "Miltonian Tattoo", serif;
+  font-size: 35px;
+  color: #ff6347;
+  font-weight: 900;
+}
+
+.nav-link {
+  font-size: 17px;
+  font-weight: 900;
+  color: black;
+  font-family: "Merriweather", serif;
+}
+.navbar-nav .nav-link.active {
+  font-size: 17px;
+  font-weight: 900;
+  color: #ff6347 !important;
+  background-color: rgb(233, 205, 205);
+  
+}
+
+.dropdown .icon img{
+  width: 40px;
+  height: 40px;
+  margin-left: 80px;
+
+}
+
+
+.offcanvas-header{
+  border-bottom: 1px solid #000;
+  background-color: lavender;
+}
+.offcanvas-header h5 {
+  font-family: "Miltonian Tattoo", serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 900;
+}
+.offcanvas-header h5 span {
+  font-family: "Miltonian Tattoo", serif;
+  font-size: 25px;
+  color: #ff6347;
+  font-weight: 900;
+}
+
+
+@media (max-width:576px) {
+  
+  .navbar-brand img{
+    width: 70px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 27px;
+  }
+  .navbar-brand h3  span{
+    font-size: 27px;
+  }
+ 
+}
+
+@media (min-width:576px) {
+  .navbar-brand{
+   margin-left: 10px;
+  }
+  .navbar-brand img{
+    width: 85px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 32px;
+  }
+  .navbar-brand h3  span{
+    font-size: 32px;
+  }
+   
+  
+ 
+}
+@media (max-width:998px) {
+   .offcanvas-body li{
+    margin-bottom: 30px!important;
+   
+ 
+
+    
+  }
+}
+@media (max-width:778px) {
+  .offcanvas-body{
+    background: #E0F7FA !important;
+  }
+  .offcanvas-body li{
+    margin-bottom: 20px;
+ 
+
+    
+  }
+  .dropdown{
+    margin: 0px 50px;
+    
+  }
+  
+}
+@media (min-width:778px) {
+  .navbar-brand{
+   margin-left: 30px;
+  }
+  .navbar-brand img{
+    width: 100px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 35px;
+  }
+  .navbar-brand h3  span{
+    font-size: 35px;
+  }
+ 
+}
+
+@media (min-width:992px) {
+  .navbar-brand{
+   margin-left: 20px;
+  }
+  .navbar-brand img{
+    width: 80px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 28px;
+  }
+  .navbar-brand h3  span{
+    font-size: 28px;
+  }
+  .dropdown-toggle{
+    margin-left: 10px;
+  }
+  .dropdown-menu{
+    margin-left: -5px;
+    margin-top: 28px!important;
+  }
+}
+@media (min-width:1100px) {
+  .navbar-brand{
+   margin-left: 40px;
+  }
+  .navbar-brand img{
+    width: 90px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 32px;
+  }
+  .navbar-brand h3  span{
+    font-size: 32px;
+  }
+  .navbar-nav{
+    margin-left: 20px;
+  }
+  .dropdown-toggle{
+    margin-left: 40px;
+  }
+  .dropdown-menu{
+    margin-left: 5px;
+    margin-top: 28px!important;
+  }
+}
+
+
+@media (min-width:1200px) {
+  .navbar-brand{
+   margin-left: 30px;
+  }
+  .navbar-brand img{
+    width: 90px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 30px;
+  }
+  .navbar-brand h3  span{
+    font-size: 30px;
+  }
+  .navbar-nav{
+    margin-left: 60px;
+  }
+  .navbar-nav li{
+    margin-left: 10px;
+  }
+  .dropdown-toggle{
+    margin-left: 50px;
+  }
+  .dropdown-menu{
+    margin-left: 30px;
+    margin-top: 28px!important;
+  }
+}
+@media (min-width:1400px) {
+  .navbar-brand{
+   margin-left: 80px;
+  }
+  .navbar-brand img{
+    width: 100px;
+  
+  }
+  .navbar-brand h3{
+    font-size: 35px;
+  }
+  .navbar-brand h3  span{
+    font-size: 35px;
+  }
+  .navbar-nav{
+    margin-left: 80px;
+    
+  }
+  .navbar-nav li{
+    margin-left: 15px;
+  }
+  .dropdown-toggle{
+    margin-left: 70px;
+  }
+  .dropdown-menu{
+    margin-left: 80px;
+    margin-top: 28px!important;
+    
+
+  }
+}
+
+
+.main-background {
+  position: relative;
+}
+.main-background img {
+  width: 100%;
+  height: 75vh !important;
+  object-fit: cover;
+  
+  position: relative;
+}
+.video-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  z-index: 1;
+  width: 90%;
+}
+.video-content h1 {
+  color: #000;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px snow;
+  font-family: "Miltonian Tattoo", serif;
+}
+.video-content p {
+  color: snow;
+  font-size: 30px;
+  text-transform: capitalize;
+   text-shadow: 5px 5px 5px rgb(39, 36, 36);
+  font-family: "Miltonian Tattoo", serif;
+}
+.video-content button{
+  background-color: #2E8B57;
+  
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.video-content button:hover{
+  background-color: #FF4F3C ;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  
+  .main-background video {
+    height: 300px;
+  }
+
+  .video-content h1 {
+    font-size: 50px; 
+  }
+
+  .video-content p {
+    font-size: 30px; 
+  }
+}
+/*ABOUT Section*/
+
+.about-container h1{
+  font-size: 40px;
+  font-family: "Charm", serif;
+  text-transform: uppercase !important;
+  color: #0e420e;
+  font-weight: 900;
+  position: relative;
+}
+.about-container h1::before {
+
+
+  
+  content: "";
+  width:60px;
+  height: 3px;
+  position: absolute;
+  background-color: #0e420e;
+  bottom:0;
+  left: 40px;
+}
+.about-container p{
+  font-size: 16px;
+  font-weight: 500px;
+  margin-top: 15px;
+  text-align: justify;
+  text-transform: capitalize;
+  color: #000;
+  line-height: 30px;
+}
+.about-container img{
+border-radius: 30px;
+box-shadow: 0 4px 20px  #FF4F3C;
+}
+
+.about-container button{
+  background-color: #FF4F3C ;
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.about-container button:hover{
+  background-color: #2E8B57;
+  cursor: pointer;
+}
+/*DESTINATION SECTION*/
+.destination_elementor h3 {
+  font-size: 30px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 20px;
+  font-family: "Charm", serif;
+}
+.destination_elementor h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #0e420e;
+  position: relative;
+ 
+}
+
+.destination_elementor .card{
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0,0.2);
+  margin-bottom: 20px;
+}
+.destination_elementor .card img{
+width: 100%;
+height: 60vh;
+
+
+}
+.intro{
+  width: 100%;
+  height: 8vh;
+  padding: 0px 10px;
+  position:absolute;
+  bottom:0;
+  background: rgba(0, 0, 0,0.3);
+  color:#fff;
+  text-align: center;
+  transition: 0.5s ease;
+}
+.intro h1{
+  font-size: 30px;
+  margin: 5px;
+  color: #ffff;
+}
+.intro p{
+  visibility: hidden;
+  font-size: 16px;
+  opacity: 0;
+}
+.destination_elementor .card:hover .intro{
+
+  height: 250px;
+}
+.destination_elementor .card:hover p{
+  visibility: visible;
+  opacity: 1;
+}
+/*FEATURES SECTION*/
+.features {
+  margin-bottom: 20px !important;
+  background-image: url(assets/background1.jpg);
+  width: 100%;
+  background-position: center;
+}
+
+.features h1,.offering h2 {
+  font-size: 35px;
+  font-family: "Charm", serif;
+  text-transform: uppercase !important;
+  color: #0e420e;
+  font-weight: 900;
+  position: relative;
+}
+.features h1::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  position: absolute;
+  background-color: #0e420e;
+  bottom: -3px;
+  left: 46%;
+}
+.features img {
+  width: 100px;
+  height: 100px;
+}
+.features h5 {
+  font-size: 20px;
+}
+.features p {
+  font-size: 16px;
+  font-weight: 500px;
+}
+.features-data:hover{
+transform: translateY(-4%);
+transition: 0.3s ease;
+}
+.vacation_elementor h3 {
+  font-size: 30px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 20px;
+  font-family: "Charm", serif;
+}
+.vacation_elementor h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #0e420e;
+}
+.vacation_elementor span {
+  color: #f04223;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.zoom-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.zoom-wrapper:hover img {
+  transform: scale(1.5);
+}
+.zoom-wrapper img {
+  transition: transform 0.8s;
+}
+.vacation-type {
+  position: relative;
+}
+.vacation-type h5 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 5px;
+  position: absolute;
+top:10px;
+  color: #fff;
+  background-color: rgb(47, 46, 46);
+}
+/*CHOOSING SECTION*/
+.choosing_elementer h1{
+  font-size: 40px;
+  font-family: "Charm", serif;
+  text-transform: uppercase !important;
+  color: #0e420e;
+  font-weight: 900;
+  position: relative;
+  margin-bottom: 15px;
+}
+.choosing_elementer h1::after {
+  content: "";
+  width:70px;
+  height: 3px;
+  position: absolute;
+  background-color: #0e420e;
+bottom:-3px;
+left: 46%;
+}
+.choosing_elementer .sub{
+  margin-bottom: 10px;
+}
+.choosing_elementer .sub h3{
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+}
+.choosing_elementer .sub h5{
+  font-size: 18px;
+  font-weight: 600;
+  color: #f04223;
+}
+.choosing_elementer .sub:hover{
+  transform: translateY(2%);
+ transition: 0.3s ease;
+
+}
+.cont-container{
+  background-image: url(assets/background2.jpg);
+ width: 100%;
+ height: auto;
+background-size: cover;
+}
+.cont-container h3{
+  color: #f04223;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size:20px;
+}
+.cont-container h1{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.cont-container p{
+  font-weight: 500;
+  font-size: 17px;
+  color: #000;
+}
+.cont-container button{
+  background-color: #FF4F3C ;
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.cont-container button:hover{
+  background-color: #2E8B57;
+  cursor: pointer;
+}
+/*Experience */
+
+.exp-container img{
+  border-radius: 130px;
+  width: 100%;
+  height: auto;
+  
+}
+.exp-container{
+  position: relative;
+}
+.exp-container .sub{
+  position: absolute;
+  top:0px;
+ 
+  background-color: #fff;
+ 
+  text-align: center;
+  border-radius: 30px;
+  
+}
+.side-elementor h1{
+  font-size: 35px;
+    font-family: "Merriweather", serif;
+    text-transform: uppercase !important;
+    color: #0e420e;
+    font-weight: 900;
+}
+.side-elementor h3{
+  font-size: 30px;
+  font-family: "Charm", serif;
+  text-transform: uppercase !important;
+  color: #000;
+  font-weight: 900;
+  position: relative;
+}
+.side-elementor p{
+  color: #3d0303;
+  text-align: justify;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 17px;
+}
+.side-elementor-rating .col-lg-4{
+  background: #add8e6;
+}
+
+
+/*signup*/
+.signup-container .main h1{
+  
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    text-transform: uppercase !important;
+    color: #0e420e;
+    font-weight: 900;
+    
+
+}
+.signup-container .main p{
+  
+  font-size: 16px;
+ color: #000;
+ font-weight: 500;
+  
+
+}
+.signup-container{
+  border: 7px double darkgoldenrod;
+  background: #E0F7FA
+}
+.signup-container img{
+  border-radius: 30px;
+  
+}
+.signup-container input{
+ 
+  margin-bottom: 10px;
+}
+.signup-container button{
+  background: linear-gradient(45deg, #FF7E5F, #FEB47B);
+  color: #000;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*login */
+.login-container .main h1{
+  
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  text-transform: uppercase !important;
+  color: #0e420e;
+  font-weight: 900;
+  
+
+}
+.login-container .main p{
+
+font-size: 16px;
+color: #000;
+font-weight: 500;
+
+
+}
+.login-container{
+  border: 7px double darkgoldenrod;
+  background: #E0F7FA
+}
+.login-container img{
+  border-radius: 30px;
+  
+}
+.login-container input{
+ 
+  margin-bottom: 10px;
+}
+.login-container button{
+  background: linear-gradient(45deg, #FF7E5F, #FEB47B);
+  color: #000;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.testimonial-slide {
+  height: 100%;
+}
+
+.testimonial .card {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+ .testimonial .card-body img{
+  width: 130px;
+  height: 120px;
+  margin-bottom: 20px;
+  display: block;
+ 
+ }
+ .testimonial p{
+
+  line-height: 30px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+ 
+
+ }
+ .testimonial h2{
+  font-size: 40px;
+  font-family: "Charm", serif;
+  text-transform: uppercase !important;
+  color: #0e420e;
+  font-weight: 900;
+  
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+ }
+ .testimonial h2::after {
+  content: "";
+  width:70px;
+  height: 3px;
+  position: absolute;
+  background-color: #0e420e;
+bottom:-3px;
+left: 46%;
+}
+ .testimonial h3{
+  color: #f04223;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size:25px;
+ }
+ .testimonial h5{
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size:17px;
+ }
+
+ .slick-slide>div{
+  margin: 0 10px;
+  
+ }
+
+/*Offering*/
+.offering1 :hover{
+background-image: url(assets/o1.jpg);
+width: 100%;
+
+background-size: cover;
+}
+.offering2 :hover{
+background-image: url(assets/o2.webp);
+width: 100%;
+
+background-size: cover;
+}
+.offering3 :hover{
+background-image: url(assets/o3.png);
+width: 100%;
+
+background-size: cover;
+}
+.offering4 :hover{
+background-image: url(assets/o4.avif);
+width: 100%;
+
+background-size: cover;
+}
+.offering5 :hover{
+background-image: url(assets/o5.jpg);
+width: 100%;
+
+background-size: cover;
+}
+.offering6 :hover{
+background-image: url(assets/o6.webp);
+width: 100%;
+
+background-size: cover;
+}
+.offering7 :hover{
+background-image: url(assets/o7.jpg);
+width: 100%;
+
+background-size: cover;
+}
+.offering8 :hover{
+background-image: url(assets/o8.webp);
+width: 100%;
+
+background-size: cover;
+}
+.offering9 :hover{
+background-image: url(assets/o9.webp);
+width: 100%;
+
+background-size: cover;
+}
+.offering10 :hover{
+background-image: url(assets/o10.jpg);
+width: 100%;
+
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
